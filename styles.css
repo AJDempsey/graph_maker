@@ -1,0 +1,24 @@
+Screen {
+    align: center middle;
+}
+
+#story_display {
+    height: 1fr;
+    border: tall $background;
+    overflow: auto;
+    width: 80%;
+    max-width: 90%;
+    margin: 2 4;
+}
+
+#word_input {
+    width: 80%;
+    max-width: 100;
+    margin: 0 4 2 4;
+}
+
+/* THE FIX: This class will hide the input widget. */
+.hidden {
+    display: none;
+}
+
